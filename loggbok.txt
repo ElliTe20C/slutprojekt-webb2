@@ -7,3 +7,10 @@ företags hemsida jag ska förbättra och utväckla. Jag skrev "inledning" och "
 tisdag 28/3-23
 
 idag så fortsatte jag med projektplanen och skrev klart en tidsplan samt några andra delar av planen.
+
+
+torsdag 30/3-23
+
+idag så skrev jag klart projektplanen helt och jag gjorde tre skisser på mina tre sidor till hemsida. sedan skrev jag också till två ytterligare paragrafer med information om 
+skisserna samt information om färg och stil val och anledningarna till mina val. jag började även koda ut min layout till sida 1 (index) i html koden vilket var kul eftersom det 
+innebär att jag ligger lite före i planeringen då kodningen inte skulle påbörjas förens efter lovet enligt planeringen.
