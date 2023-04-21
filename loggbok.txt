@@ -19,3 +19,9 @@ innebär att jag ligger lite före i planeringen då kodningen inte skulle påb�
 torsdag 20/4-23
 
 idag har jag börjat göra och nästan gjort klart den grafiska manualen. jag har gjort alla skisser i paint. jag har gjort klart skisser till dator, ipad, telefon. 
+
+
+fredag 21/4-23
+
+idag har jag gjort klart den grafiska manualen. jag har skrivit om färg och stil val samt tagit fram några färgpaletter jag kommer att jobba med. jag har fortsatt att koda lite 
+på strukturen till startsidan samt gjort lite lite css kodning.

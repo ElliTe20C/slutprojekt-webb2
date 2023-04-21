@@ -1,0 +1,47 @@
+färgpaletter kod
+
+palett nr 1
+.color1 {color: #ab6242;}
+.color2 {color: #b27e51;}
+.color3 {color: #c4a172;}
+.color4 {color: #d8c599;}
+.color5 {color: #e4e2bb;}
+
+
+palett nr 2
+.color1 {color: #089cff;}
+.color2 {color: #5ca6ff;}
+.color3 {color: #beb2f9;}
+.color4 {color: #fecaf8;}
+.color5 {color: #ffe4f4;}
+
+
+reservpalett 
+.color1 {color: #622f37;}
+.color2 {color: #824241;}
+.color3 {color: #b1635b;}
+.color4 {color: #ef8e7a;}
+.color5 {color: #f4c494;}
+
+
+Färg- och stil val
+Jag kommer att gå för mycket stilrena och neutrala färger som matchar de modetrender som cirkulerar just nu. Det kommer att vara mycket beigea nyanser samt ljusa akvareller så som blå och grönt för att matcha den neutrala paletten då neutrala och naturnära färger är trendigt just nu. Även svart och vitt kommer att finnas med för eventuella konturer och detaljer. 
+Även loggan och bilderna kommer att anpassas till ett mycket naturellt och minimalistiskt tema. För att fortsätta den röda tråden genom hemsidan kommer även typsnitt att få en minimalistisk stil där tunna och skarpa former blir det vinnande konceptet. Även för tydlighetens skull kommer runda och snirkliga typsnitt att undvikas i text. Allt för att anpassa hemsidan så att det blir lättare och tydligare för kund att navigera sig och förstå hemsidan.
+
+
+
+Färgpaletter
+Palett nr 1
+.color1 {color: #622f37;}
+.color2 {color: #824241;}
+.color3 {color: #b1635b;}
+.color4 {color: #ef8e7a;}
+.color5 {color: #f4c494;}
+
+
+Palett nr 2
+.color1 {color: #089cff;}
+.color2 {color: #5ca6ff;}
+.color3 {color: #beb2f9;}
+.color4 {color: #fecaf8;}
+.color5 {color: #ffe4f4;}
