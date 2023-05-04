@@ -4,5 +4,58 @@ body {
 
 container {
     width: 60%;
+    height: 1000px;
     margin: auto;
+    background-color: yellow;
+    display: grid;
+    gap: 5px;
+
+    grid-template: 200px auto/auto;
+    grid-template-areas: " head "
+                         " nav "
+                         " article "
+}
+.head {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: " logga header header header"
+}
+
+.logga {
+    background-color: red;
+    width: auto;
+    height: 100%;
+}
+
+header {
+    background-color: aquamarine;
+    width: auto;
+    height: 100%;
+}
+
+nav {
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
+}
+
+.knapp {
+    background-color: lightblue;
+    width: 40px;
+    height: 40px;
+}
+
+.box {
+    background-color: lightcoral;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: green;
+    width: 40px;
+    height: 40px;
 }

@@ -25,3 +25,8 @@ fredag 21/4-23
 
 idag har jag gjort klart den grafiska manualen. jag har skrivit om färg och stil val samt tagit fram några färgpaletter jag kommer att jobba med. jag har fortsatt att koda lite 
 på strukturen till startsidan samt gjort lite lite css kodning.
+
+
+torsag 4/5-23
+
+idag har jag fortsatt koda på startsidan och även kopplat till en css sida så att jag kan börja jobb med att få till layouten på hemsidan.
