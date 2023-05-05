@@ -4,13 +4,13 @@ body {
 
 container {
     width: 60%;
-    height: 1000px;
+    height: auto;
     margin: auto;
     background-color: yellow;
     display: grid;
     gap: 5px;
 
-    grid-template: 200px auto/auto;
+    grid-template: 200px 70px/auto;
     grid-template-areas: " head "
                          " nav "
                          " article "
@@ -21,12 +21,12 @@ container {
     height: 100%;
     display: grid;
     gap: 5px;
-    grid-template-areas: " logga header header header"
+    grid-template-areas: " logga header "
 }
 
 .logga {
     background-color: red;
-    width: auto;
+    width: 50%;
     height: 100%;
 }
 
@@ -40,22 +40,39 @@ nav {
     background-color: blueviolet;
     width: 100%;
     height: 70px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: " knapp knapp knapp "
 }
 
 .knapp {
     background-color: lightblue;
-    width: 40px;
-    height: 40px;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+article {
+    background-color: darkgoldenrod;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: " box box box "
 }
 
 .box {
     background-color: lightcoral;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 footer {
     background-color: green;
-    width: 40px;
-    height: 40px;
+    width: 60%;
+    height: 80px;
+    margin: auto;
 }
