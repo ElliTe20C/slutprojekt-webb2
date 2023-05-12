@@ -35,3 +35,9 @@ idag har jag fortsatt koda på startsidan och även kopplat till en css sida så
 fredag 5/5-23
 
 idag har jag fortsatt jobba med layouten till startsidan och grunden är i stort sett klar. det som saknas är länkarna, bilderna, text, färg osv. de övriga detaljerna.
+
+
+fredag 12/5-23
+
+idag har jag sakpat då tre återstående html sidorna och sen fortsatt jobba på alla fyra sidor. skelettet är klart på de tre övriga sidorna men layouten är inte helt fixad än. 
+jag har även börjat implementera javascrip. än så länge är java koden inte klar men gunden är laggd.

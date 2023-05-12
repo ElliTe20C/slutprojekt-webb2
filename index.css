@@ -6,7 +6,7 @@ container {
     width: 60%;
     height: auto;
     margin: auto;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: grid;
     gap: 5px;
 
@@ -16,18 +16,20 @@ container {
                          " article "
 }
 .head {
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
     height: 100%;
+    border: 2px solid black;
     display: grid;
     gap: 5px;
-    grid-template-areas: " logga header "
+    grid-template-columns: 1fr 3fr;
 }
 
 .logga {
     background-color: red;
-    width: 50%;
+    width: 100%;
     height: 100%;
+    border-right: 2px solid black;
 }
 
 header {
@@ -37,7 +39,7 @@ header {
 }
 
 nav {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100%;
     height: 70px;
     display: grid;
@@ -46,10 +48,11 @@ nav {
 }
 
 .knapp {
-    background-color: lightblue;
+    background-color: #beb2f9;
     width: 50%;
     height: 100%;
     margin: auto;
+    border: 2px solid black;
 }
 
 article {
@@ -68,6 +71,7 @@ article {
     height: auto;
     margin: auto;
     margin-bottom: 5px;
+    border: 2px solid black;
 }
 
 footer {
@@ -75,4 +79,8 @@ footer {
     width: 60%;
     height: 80px;
     margin: auto;
+}
+
+p {
+    text-align: center;
 }
