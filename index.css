@@ -10,7 +10,7 @@ container {
     display: grid;
     gap: 5px;
 
-    grid-template: 200px 70px/auto;
+    grid-template: 1fr 70px 437px/auto;
     grid-template-areas: " head "
                          " nav "
                          " article "
@@ -22,6 +22,7 @@ container {
     border: 2px solid black;
     display: grid;
     gap: 5px;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 3fr;
 }
 
@@ -56,12 +57,13 @@ nav {
 }
 
 article {
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     height: auto;
     width: 100%;
     margin: auto;
     display: grid;
     gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: " box box box "
 }
 
@@ -75,12 +77,20 @@ article {
 }
 
 footer {
-    background-color: green;
+    background-color: #b1635b;
     width: 60%;
     height: 80px;
-    margin: auto;
+    margin-left: 381px;
+    margin-top: auto;
+    border: 2px solid black;
 }
 
 p {
     text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px solid black;
 }

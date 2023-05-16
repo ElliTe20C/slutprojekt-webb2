@@ -41,3 +41,8 @@ fredag 12/5-23
 
 idag har jag sakpat då tre återstående html sidorna och sen fortsatt jobba på alla fyra sidor. skelettet är klart på de tre övriga sidorna men layouten är inte helt fixad än. 
 jag har även börjat implementera javascrip. än så länge är java koden inte klar men gunden är laggd.
+
+
+tisdag 16/5-23
+
+idag har jag kodat in bilder på min startsida samt fösökt få in de rätta färgerna bättre och även få layouten att bli jämnare. 
