@@ -6,7 +6,7 @@ container {
     width: 60%;
     height: auto;
     margin: auto;
-    /* background-color: yellow; */
+    background-color: #ffe4f4;
     display: grid;
     gap: 5px;
 
@@ -14,6 +14,7 @@ container {
     grid-template-areas: " head "
                          " nav "
                          " article "
+                         " footer "
 }
 .head {
     /* background-color: blue; */
@@ -27,14 +28,14 @@ container {
 }
 
 .logga {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     border-right: 2px solid black;
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #ffe4f4;
     width: auto;
     height: 100%;
 }
@@ -67,10 +68,31 @@ article {
     grid-template-areas: " box box box "
 }
 
+.sida1-box {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-rows: auto auto ;
+    grid-template-areas: " row "
+                         " row "
+}
+
+.sida3-box {
+    height: auto;
+    width: 100%;
+    /* display: grid; */
+    gap: 5px;
+    /* grid-template-columns: 4fr 1fr ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: " card mb-3 card"
+                         " card mb-3 card" */
+}
+
 .box {
     background-color: lightcoral;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
     margin-bottom: 5px;
     border: 2px solid black;
@@ -78,19 +100,34 @@ article {
 
 footer {
     background-color: #b1635b;
-    width: 60%;
-    height: 80px;
-    margin-left: 381px;
+    width: 100%;
+    height: auto;
     margin-top: auto;
     border: 2px solid black;
 }
-
-p {
+.footer-p {
     text-align: center;
+}
+
+.knapp-p {
+    text-align: center;
+    padding-top: 17px;
 }
 
 img {
     width: 100%;
     height: auto;
     margin-bottom: 2px solid black;
+}
+
+h1 {
+    padding-top: 70px;
+    font-family: serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+href {
+    text-decoration: none;
+    color: black;
 }
