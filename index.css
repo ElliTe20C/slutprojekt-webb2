@@ -1,5 +1,6 @@
 body {
     background-color: #ffe4f4;
+    padding: 4vh 15vh;
 }
 
 container {
@@ -7,14 +8,7 @@ container {
     height: auto;
     margin: auto;
     background-color: #ffe4f4;
-    display: grid;
     gap: 5px;
-
-    grid-template: 1fr 70px 437px/auto;
-    grid-template-areas: " head "
-                         " nav "
-                         " article "
-                         " footer "
 }
 .head {
     /* background-color: blue; */
@@ -80,13 +74,15 @@ article {
 
 .sida3-box {
     height: auto;
-    width: 100%;
-    /* display: grid; */
+    display: flex;
     gap: 5px;
+    flex-direction: column;
+    align-items: center;
     /* grid-template-columns: 4fr 1fr ;
     grid-template-rows: auto auto ;
-    grid-template-areas: " card mb-3 card"
-                         " card mb-3 card" */
+    grid-template-areas: " card mb-3 "
+                         " card mb-3 "
+                         " card mb-3 " */
 }
 
 .box {
@@ -104,8 +100,10 @@ footer {
     height: auto;
     margin-top: auto;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
 }
-.footer-p {
+button {
     text-align: center;
 }
 
@@ -121,13 +119,21 @@ img {
 }
 
 h1 {
-    padding-top: 70px;
     font-family: serif;
     font-size: 300%;
     text-align: center;
 }
 
-href {
+.carousel-inner {
+    aspect-ratio: 1.5 / 1;
+    height: 600px;
+}
+
+.col-md-4 img {
+    height: 250px;
+}
+
+h1 a, .knapp-p a {
     text-decoration: none;
     color: black;
 }
